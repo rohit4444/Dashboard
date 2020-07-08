@@ -1,18 +1,54 @@
-just for sample
-thanks
- :)
+@Entity
+@Table(name = "USER_DETAILS")
+public class UserEntity {
+	@Id
+	@Column(name = "userid")
+	private String userId;
+	private String password;
+	private String name;
+	private String city;
+	private String email;
+	private String phone;
+ public String getPassword() {
+		return password;
+	}
 
+	public String getName() {
+		return name;
+	}
 
+	public String getCity() {
+		return city;
+	}
 
+	public String getEmail() {
+		return email;
+	}
 
-on 28th june
-year
+	public String getPhone() {
+		return phone;
+	}
 
-on 28th june 2018
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
 
+	public void setCity(String city) {
+		this.city = city;
+	}
 
-jadhav
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-rohit
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 
+	public String getUserId() {
+		return userId;
+	}
