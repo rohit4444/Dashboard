@@ -1,7 +1,7 @@
 
-# sample code base
-=======
-# DB
+sample code base
+
+DB
 DB dashboard
 
 
