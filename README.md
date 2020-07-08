@@ -1,3 +1,1 @@
-# Dashboard
-infosys dashboard
-created by RJ
+# sample code base
